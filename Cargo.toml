@@ -1,8 +1,16 @@
 [package]
 name = "RDM"
+description = " A fast cross platform download manager written in Rust"
+repository = "https://github.com/Bens0/Rusty-Download-Manager"
+license = "MIT"
+license-file = "LICENSE"
+keywords = ["network"]
 version = "0.1.0"
+authors = ["Ember Schryver", "katie.schryver@protonmail.com>"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+fltk = "1.4.*"
+manic = "0.8.*"
